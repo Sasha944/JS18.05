@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    function Step (a,b){
+        for(var i=1;i<a.length;i+=b){
+            console.log(a[i]);
+        }
+        return Step
+    }
+    var abc = Step([1,4,2,4,6,8,6,5],2);
+
+    /*
+     Написати функцію, яка буде виводити переданий масив з вказаним кроком.
+     Величина кроку також передається, як аргумент. (Приклад виклику: printArray([1,2,3,4,5,6, 7], 3).
+     Перший аргумент масив, який буде виведено, а другий - крок. Тобто виводом буде 1,4,7)
+     */
+</script>
+</body>
+</html>
